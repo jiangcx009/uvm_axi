@@ -30,7 +30,7 @@ class AXI_master_write_seq extends AXI_transfer;
                 );
 
     super.new(name);
-    $cast(m_trx, super);
+    $cast(m_trx, this);
 
     m_trx.rw            = WRITE;
     m_trx.addr          = addr;

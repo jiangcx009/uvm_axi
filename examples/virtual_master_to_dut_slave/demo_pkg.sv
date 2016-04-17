@@ -4,8 +4,8 @@
 
 package demo_pkg;
 
-`include "axi_pkg.sv"
-`include "axi_seq_lib_pkg.sv"
+//`include "axi_pkg.sv"
+//`include "axi_seq_lib_pkg.sv"
 
 import uvm_pkg::*;
 `include "uvm_macros.svh"

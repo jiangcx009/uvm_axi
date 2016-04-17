@@ -12,7 +12,7 @@
 package axi_pkg;
 
 // Import the UVM class library  and UVM automation macros
-import uvm_pkg::*;
+import uvm_pkg::* ;
 `include "uvm_macros.svh"
 
 `include "axi_type.sv"
@@ -23,7 +23,7 @@ import uvm_pkg::*;
 `include "axi_master_monitor.sv"
 `include "axi_master_driver.sv"
 `include "axi_master_sequencer.sv"
-//`include "axi_master_recorder.sv"
+`include "axi_master_recorder.sv"
 `include "axi_master_agent.sv"
 
 `include "axi_slave_monitor.sv"

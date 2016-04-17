@@ -97,13 +97,13 @@ interface AXI_vif #(
 	---------------------------------------------*/
 
 	// modports in slave interfaces
-	modport Slave ();
+	//modport Slave ();
 
 	// modports in master interfaces
-	modport Master ();
+	//modport Master ();
 
 	// modports in monitor interface
-	modport Monitor ();
+	//modport Monitor ();
 
 	/*-----------------------------------------------
 	// Assertions -> axi_assertioms.sv

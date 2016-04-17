@@ -77,7 +77,7 @@ function void Demo_scoreboard::memory_verify(AXI_transfer trx);
     end
   end
 
-endfunction : write_meory_verify
+endfunction : memory_verify
 
 
 `endif // DEMO_SCOREBOARD_SV

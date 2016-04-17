@@ -265,13 +265,13 @@ end
 always@(posedge clk) begin
 	if (i_awvalid & o_awready) begin
 		awaddr <= i_awaddr;
-    awlen  <= i_awlen;;
+    awlen  <= i_awlen;
 		awid   <= i_awid;
 	end
 end
 
 always@(posedge clk) begin
-  integer t;
+  //integer t;
 	if (i_wvalid & o_wready) begin
 		$mem_write(awaddr,i_wstrb,i_wdata);
 		awaddr <= awaddr + 4;

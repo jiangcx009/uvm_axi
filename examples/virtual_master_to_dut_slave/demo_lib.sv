@@ -42,8 +42,8 @@ class Test_write_data_after_write_addr extends Demo_base_test;
   endfunction : new
 
   virtual function void build_phase(uvm_phase phase);
-    uvm_config_db #(uvm_object_wrapper)::set(this, "m_demo_tb.m_axi_env.m_masters[0].m_sequencer.run_phase",
-                          "default_sequence", DEMO_AXI_master_write_data_after_write_addr::type_id::get());
+    uvm_config_db #(uvm_object_wrapper)::set(this, "m_demo_tb.m_axi_env.m_masters[0].m_sequencer.run_phase", "default_sequence", 
+													DEMO_AXI_master_write_data_after_write_addr::type_id::get());
 
 //    uvm_config_db #(uvm_object_wrapper)::set(this, "m_demo_tb.m_axi_env.m_slaves[0].m_sequencer.run_phase",
 //                          "default_sequence", DEMO_AXI_slave_monitor::type_id::get());

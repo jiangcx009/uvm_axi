@@ -21,7 +21,7 @@ class AXI_master_read_seq extends AXI_transfer;
                 );
 
     super.new(name);
-    $cast(m_trx, super);
+    $cast(m_trx, this);
 
     m_trx.rw            = READ;
     m_trx.addr          = addr;

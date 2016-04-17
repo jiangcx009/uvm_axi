@@ -16,7 +16,7 @@ package axi_seq_lib_pkg;
 import uvm_pkg::*;
 `include "uvm_macros.svh"
 
-`include "axi_pkg.sv"
+//`include "axi_pkg.sv"
 import axi_pkg::*;
 
 `include "axi_based_seq_lib.sv"
